@@ -2,7 +2,7 @@
 
 sleep 10;
 
-echo "Connect to http://[host]:[port]/timetrex/interface/install/install.php to finish installtion!!!!"
+echo "Connect to http://localhost:8080/timetrex/interface/install/install.php to finish the installtion."
 
 # mv /var/www/html/timetrex/timetrex.ini.php-example_linux /var/www/html/timetrex/timetrex.ini.php
 
