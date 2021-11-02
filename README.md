@@ -19,7 +19,6 @@ download timetrx (v 14.1.0 used here) ans extract it's files into ./docker/timet
 
 Mounts get bound to these directories and presistant data like this:
 
-- ./docker/database:/var/lib/postgresql/data:rw
 - ./docker/timetrex:/var/www/html/timetrex:rw
 - ./docker-entrypoint.sh:/docker-entrypoint.sh:rw
 
